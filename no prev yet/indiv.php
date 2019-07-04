@@ -47,15 +47,7 @@
                 $posts1[] = array('qid'=>$qID, 'qNum'=> $qnum,'question' => $question,'answer'=>$ans);
             }
             array_push($posts,$posts1);
-            array_push($uAns,$_POST["ans"]);  
-
-            $file = fopen("qs.json","w");
-            fwrite($file,json_encode($posts));
-            fclose($file);
-
-            $file = fopen("as.json","w");
-            fwrite($file,json_encode($uAns));
-            fclose($file);
+            array_push($uAns,$_POST["anss"]);  
 
         } else {
             echo "0 results";
@@ -64,7 +56,7 @@
         ?>
         <p id = "dummy"></p>
         <p id = "question"></p>
-        <input type = "text" name = "ans" id = "ans" onfocus="this.value=''" placeholder="" >
+        <input type = "text" name = "anss" id = "anss" onfocus="this.value=''" placeholder="" >
         <div id = "next">
             <input type = "submit" id = "nextB">
         </div>
@@ -79,7 +71,6 @@
             var counter = 0;
             var ctr = <?php echo $_POST["counter"]?>;
             var bound = <?php echo $qnum1?>;
-            var ans = [<?php echo $_POST["ans"]?>];
             var ps;
             if (ctr<bound-1){
                 document.getElementById("quiz").action ="./indiv.php";
