@@ -1,0 +1,237 @@
+#wrapper {
+	width: 70%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 5%;
+	box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 0.59);
+}
+#wrapper1 {
+	width: 70%;
+	height: auto;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 5%;
+	box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 0.59);
+}
+#wrapper2 {
+	width: 70%;
+	height: auto;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 5%;
+	box-shadow: 1px 1px 7px -1px rgba(0, 0, 0, 0.59);
+}
+#content{
+	font-family: 'Staatliches', cursive;
+	font-size: 1.5em;
+}
+#score{
+	font-family: 'Staatliches', cursive;
+	font-size: 2em;
+}
+#tryagain{
+	background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	margin: 0 auto;
+	outline: none;
+	font-size: 1em;	
+	transition: 0.3s;
+	transform: translate(420%, -20%);
+}
+#submit3{
+	background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	margin: 0 auto;
+	outline: none;
+	font-size: 1em;	
+	transition: 0.3s;
+	transform: translate(523%, -120%);
+}
+#gtHome{
+	background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	margin: 0 auto;
+	outline: none;
+	font-size: 1em;	
+	transition: 0.3s;
+	transform: translate(424%, -20%);
+}
+
+
+
+h1 {
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 4px;
+	font-size: 3em;
+	color: #4682B4;
+	text-align: center;
+	margin-bottom: 2%;
+}
+h2{
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 4px;
+	font-size: 1.5em;
+	color: #4682B4;
+	text-align: center;
+
+}
+
+#qtopic{
+	background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	letter-spacing: 4px;
+	font-size: 1em;	
+	transition: 0.3s;
+}
+#stopic{
+	transform: translate(30%, 50%);
+	font-family: 'Staatliches', cursive;
+	color: #4682B4;
+	font-size: 1.5em;
+}
+input[type=number] {
+	width: 10%;
+	padding: 15px;
+	margin-bottom: 3%;
+	border: 2px solid 	#4682B4;
+	outline: none;
+	color: #ea6153;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	transform: translate(13%, -5%);
+}
+#submit1 {
+	outline: none;
+	color: #4682B4;
+	font-size: 0.8em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	transform: translate(390%, -56%);
+}
+#submit2 {
+			background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	letter-spacing: 4px;
+	font-size: 1em;	
+	transition: 0.3s;
+	transform: translate(-1%, -13%);
+}
+input[type=text] {
+	width: 80%;
+	padding: 15px;
+	margin-bottom: 3%;
+	border: 2px solid 	#4682B4;
+	outline: none;
+	color: #ea6153;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	transform: translate(13%, -5%);
+}
+
+#nQuestion{
+	transform: translate(30%, -20%);
+	font-family: 'Staatliches', cursive;
+	color: #4682B4;
+	font-size: 1.5em;
+}
+#nextB{
+	background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	letter-spacing: 4px;
+	font-size: 1em;	
+	transition: 0.3s;
+}
+#prevbtn{
+		background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	letter-spacing: 4px;
+	font-size: 1em;	
+	transition: 0.3s;
+}
+#subbtn{
+		background-color: #4682B4;
+	color: white;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	width: 8%;
+	margin: 0 auto;
+	outline: none;
+	font-size: 1em;	
+	transition: 0.3s;
+	transform: translate(980%, 70%);
+}
+
+#prevbtn:hover{
+	background-color: #C74F46;
+}
+#qtopic:hover{
+	background-color: #C74F46;
+}
+#subbtn:hover{
+	background-color: #C74F46;
+}
+#tryagain button:hover{
+	background-color: #C74F46;	
+}
+#question{
+	color: white;
+	background-color: 	#4682B4;
+	padding: 1%;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
