@@ -21,7 +21,7 @@
         <p id="nQuestion">How Many Questions?
         <input type= "number" name = "qNum" min = "1" max = "20" required><br>
             <input type= "hidden" name = "counter" value = "0">
-            <input type= "hidden" name = "ans" value = "0">
+            <input type= "hidden" name = "anss" value = "">
             <input type= "hidden" name = "uAns" value = "<?php $uAns = array(); print base64_encode(serialize($uAns)) ?>">
             <input type= "hidden" name = "posts" value = "<?php $posts = array(); print base64_encode(serialize($posts)) ?>">
         <input id="submit1" type = "submit">
